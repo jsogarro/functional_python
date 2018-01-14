@@ -1,0 +1,9 @@
+name: conda-func-base
+channels:
+- defaults
+dependencies:
+- python=3.5.4=0
+- pip:
+    - pylint
+    - pytest
+    - toolz

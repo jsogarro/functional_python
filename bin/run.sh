@@ -1,5 +1,5 @@
 #!/bin/bash
 
-pylint main.py
+find . -iname "*.py" | xargs pylint 
 pytest
 python main.py

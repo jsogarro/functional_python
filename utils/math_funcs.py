@@ -2,34 +2,34 @@
 
 Math utility functions to be used for function compositon
 """
-def square(x):
+def square(x_val):
     """squares a givein number"""
-    return x ** 2
+    return x_val ** 2
 
-def cube(x):
+def cube(x_val):
     """cubes a given number"""
-    return x ** 3
+    return x_val ** 3
 
-def less(x, y):
+def less(x_val, y_val):
     """Compares two numbers and returns True if x is less than y"""
-    return x < y
+    return x_val < y_val
 
-def greater(x, y):
+def greater(x_val, y_val):
     """Compares two numbers and retursn True if x is greater than y"""
-    return x > y
+    return x_val > y_val
 
-def iseven(x):
+def iseven(x_val):
     """Determines if a number is even"""
-    return x % 2 == 0
+    return x_val % 2 == 0
 
-def add(x, y):
+def add(x_val, y_val):
     """Adds two numbers"""
-    return x + y
+    return x_val + y_val
 
-def mult(x, y):
+def mult(x_val, y_val):
     """Multiplies two numbers"""
-    return x * y
+    return x_val * y_val
 
-def div(x, y):
+def div(x_val, y_val):
     """Divides two numbers"""
-    return x / y
+    return x_val / y_val

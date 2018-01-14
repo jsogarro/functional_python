@@ -20,3 +20,20 @@ def test_less():
 def test_greater():
     """Tests math_funcs.greater"""
     assert math_funcs.greater(6, 2) is True
+
+def test_iseven():
+    """Tests math_funcs.iseven"""
+    assert math_funcs.iseven(3) is False
+    assert math_funcs.iseven(26) is True
+
+def test_add():
+    """Tests math_funcs.add"""
+    assert math_funcs.add(1, 2) == 3
+
+def test_mult():
+    """Tests math_funcs.mult"""
+    assert math_funcs.mult(2, 3) == 6
+
+def test_div():
+    """Tests math_funcs.div"""
+    assert math_funcs.div(6, 3) == 2

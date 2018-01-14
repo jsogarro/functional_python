@@ -15,7 +15,7 @@ def less(x_val, y_val):
     return x_val < y_val
 
 def greater(x_val, y_val):
-    """Compares two numbers and retursn True if x is greater than y"""
+    """Compares two numbers and returns True if x is greater than y"""
     return x_val > y_val
 
 def iseven(x_val):

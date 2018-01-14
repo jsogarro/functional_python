@@ -6,4 +6,5 @@ dependencies:
 - pip:
     - pylint
     - pytest
+    - pytest-cov
     - toolz
